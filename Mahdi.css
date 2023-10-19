@@ -1,0 +1,91 @@
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+.container {
+    max-width: 93rem;
+    margin: 0 auto;
+    padding: 0 2.2rem;
+}
+a {
+    display: block;
+    text-decoration: none;
+}
+/* header */
+header {
+    position: fixed;
+    top: 0;
+    z-index: 1400;
+    width: 100%;
+    height: 4.4rem;
+    background-color: black;
+    backdrop-filter: blur(11.5rem);
+}
+.nav-list {
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 0 -1rem;
+}
+.nav-list-mobile {
+    display: none;
+}
+.nav-link {
+    font-size: 1.4rem;
+    color: aliceblue;
+    padding: 0 1rem;
+    transition: opacity 0.5s;
+}
+.nav-link:hover {
+    opacity: 0.7;
+}
+.nav-link-logo {
+    width: 1,6rem;
+    height: 4.4rem;
+    background: url(./img/logo.jpeg) center no-repeat;
+}
+.Apple {
+    margin-top: 0;
+    background: url(./img/bcak.JPEG) ;
+}
+.title {
+    color: #fff;
+    text-align: center;
+    padding-top: 5.5rem;
+  }
+  .title {
+    color: #fff;
+    text-align: center;
+    padding-top: 5.5rem;
+  }
+  
+  .title-heading {
+    font-size: 5.6rem;
+    line-height: 1.08;
+    letter-spacing: 0.005rem;
+  }
+  
+  .title-sub-heading {
+    font-size: 2.65rem;
+    margin-top: 0.6rem;
+    letter-spacing: 0.008rem;
+    font-weight: 400;
+  }
+  
+  .title-price {
+    font-size: 1.7rem;
+    color: #888;
+    margin-top: 0.68rem;
+  }
+  
+  .cta {
+    text-align: center;
+    margin-top: 1.8rem;
+  }
+  
+  .cta-link {
+    color: #66bbff;
+    font-size: 2.1rem;
+    display: inline-block;
+  }
